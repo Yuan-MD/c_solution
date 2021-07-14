@@ -31,7 +31,7 @@ bool SlistRemove(Slist* list, const int key);//删除
 bool sModify(Slist* list, const int key, const int data); //修改
 Node* sFind(Slist* list, const int key); //查找
 void sTreaverse(Slist* list, void (*func)(Node* p)); //遍历
-void sDestroy(Slist* list); //销毁
+void sDestroy(Slist* list); //销毁链表
 void printData(Node* p); //print
 void slist_sample(void);
 
