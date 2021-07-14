@@ -100,7 +100,7 @@ void sDestrory(Slist* list)
     free(list->head);
 }
 
-//print
+//print 打印节点数据
 void printData(Node* p)
 {
     printf("%d ", p->data);
